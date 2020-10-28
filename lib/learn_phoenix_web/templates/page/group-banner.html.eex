@@ -1,0 +1,23 @@
+
+    <%# <div class="mt-0 pt-2 jumbotron-fluid bg-white mb-n2">
+     
+    </div> %>
+     <div class ="row">
+        <div class="col-lg-8 p-2">
+          <h1 class="display-4">Talam</h1>
+            <p class="lead">IT team under CSR developing tech solutions for Auroville community.</p>
+           
+        </div>
+        <div class="col-lg-4 p-2">
+          <div class="group_members">
+				      <span class="group_member_count">	1	</span>
+					    <a href="/og/users/79957">Members</a>  
+				    	<br>
+
+              <div id="sb-search" class="sb-search">
+						
+					</div>
+            </div>
+      </div>
+
+    </div>

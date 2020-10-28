@@ -1,0 +1,30 @@
+ 
+      <div class="container  mt-3 py-2">
+         <div class="card  border-0 bg-white">
+           <div class="card-header bg-white"><!--card header-->
+                <h5 class="card-title"> <a href="#"> Automatic sanitiser dispenser</a></h5>
+                <div class="submitted">
+                  By <a href="#" class="active">Tālam </a> , 11 Jun 2020 / 03:06 pm 
+                </div>
+               <div class="terms terms-terms terms-inline">in <a href="#" rel="tag" title="Announcement">Announcement</a></div>
+              </div><!--/card header--->
+              <div class="card-body border-bottom">
+               <p class="card-text">At Talam, CSR we have developed an in-house automatic sanitiser dispenser at low cost. Please see the image below. This is done by modifying the standard water purifier box (the outer plastic body) to cut down costs <a href="#" class="">Read more>>></a></p>
+               <ul class="list-inline text-right">
+              <li class="list-inline-item"> <a href="#" title="4 comments">4 Comments</a></li>
+              <li class="list-inline-item"><a href="#" title="Report this page" class="pr-2"><i class="far fa-flag"></i></a></li>
+              <li class="list-inline-item"><a href="#" title="Click here to hide all posts from this user" class="modalframe-flag-link-processed"><i class="fas fa-ban"></i></a></li>
+            </ul>
+             </div>
+            <%# <div class="card-footer  bg-white ">
+            
+             <div class="comments-bubble"><a href="#" title="4 comments">4 Comments</a></div>
+              <div class="text-right">
+                <a href="#" title="Report this page" class="pr-2"><i class="far fa-flag"></i></a>
+                <a href="#" title="Click here to hide all posts from this user" class="modalframe-flag-link-processed"><i class="fas fa-ban"></i></a>
+               </div>
+             </div>  <!--card footer--> %>
+        </div><!--/card -->
+      </div><!--/container-->
+      
+    

@@ -1,0 +1,21 @@
+<div class="container">
+
+ <%= render "group-banner.html" %>
+ <%= render "static_navbar_group.html" %> 
+ <div class="row">
+    <div class="col-lg-6">
+        <%= render "group_cards.html" %>
+    </div>
+    <div class="col-lg-6">
+        <%= render "group_cards.html" %>
+    </div>
+     <div class="col-lg-6">
+        <%= render "group_cards.html" %>
+    </div>
+     <div class="col-lg-6">
+        <%= render "group_cards.html" %>
+    </div>
+</div>
+ 
+  </div>
+  
