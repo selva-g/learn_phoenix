@@ -1,94 +1,81 @@
-<!--<nav class="navbar sticky-top navbar-light bg-light justify-content-between">------>
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+<%# <!--<nav class="navbar sticky-top navbar-light bg-light justify-content-between">------>
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
    <section class="site-title">Auronet>Groups</section>
    <!--<a class="navbar-brand ml-auto" href="#">Auronet</a>-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbardown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+        
+          <div class="collapse navbar-collapse" id="navbardown">
               <ul class="navbar-nav mx-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#" title="Talam Home">Groups <span class="sr-only">(current)</span></a>
+        <a class="nav-link cat-item" data-filter="all" href="#" title="Talam Home">All <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" title="A">A</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" >B</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">C</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">D</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">E</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">F</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">G</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">H</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">I</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">J</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">K</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">L</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">M</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">N</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">O</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">P</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Q</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">R</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">S</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">T</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">U</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">V</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">W</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">X</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Y</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Z</a>
-      </li>
+      <li class="nav-item cat-item" data-filter="a"><a class="nav-link" href="#" title="A">A</a></li>
+      <li class="nav-item cat-item" data-filter="b"><a class="nav-link" href="#" >B</a></li>
+      <li class="nav-item cat-item" data-filter="c"><a class="nav-link" href="#">C</a></li>
+      <li class="nav-item cat-item" data-filter="d"><a class="nav-link" href="#">D</a></li>
+      <li class="nav-item cat-item" data-filter="e"><a class="nav-link" href="#">E</a></li>
+      <li class="nav-item cat-item" data-filter="f"><a class="nav-link" href="#">F</a></li>
+      <li class="nav-item cat-item" data-filter="g"><a class="nav-link" href="#">G</a></li>
+      <li class="nav-item cat-item" data-filter="h"><a class="nav-link" href="#">H</a></li>
+      <li class="nav-item cat-item" data-filter="i"><a class="nav-link" href="#">I</a></li>
+      <li class="nav-item cat-item" data-filter="j"><a class="nav-link" href="#">J</a></li>
+      <li class="nav-item cat-item" data-filter="k"><a class="nav-link" href="#">K</a></li>
+      <li class="nav-item cat-item" data-filter="l"><a class="nav-link" href="#">L</a></li>
+      <li class="nav-item cat-item" data-filter="m"><a class="nav-link" href="#">M</a></li>
+      <li class="nav-item cat-item" data-filter="n"><a class="nav-link" href="#">N</a></li>
+      <li class="nav-item cat-item" data-filter="o"><a class="nav-link" href="#">O</a></li>
+      <li class="nav-item cat-item" data-filter="p"><a class="nav-link" href="#">P</a></li>
+      <li class="nav-item cat-item" data-filter="q"><a class="nav-link" href="#">Q</a></li>
+      <li class="nav-item cat-item" data-filter="r"><a class="nav-link" href="#">R</a></li>
+      <li class="nav-item cat-item" data-filter="s"><a class="nav-link" href="#">S</a></li>
+      <li class="nav-item cat-item" data-filter="t"><a class="nav-link" href="#">T</a></li>
+      <li class="nav-item cat-item" data-filter="u"><a class="nav-link" href="#">U</a></li>
+      <li class="nav-item cat-item" data-filter="v"><a class="nav-link" href="#">V</a></li>
+      <li class="nav-item cat-item" data-filter="w"><a class="nav-link" href="#">W</a></li>
+      <li class="nav-item cat-item" data-filter="x"><a class="nav-link" href="#">X</a></li>
+      <li class="nav-item cat-item" data-filter="y"><a class="nav-link" href="#">Y</a></li>
+      <li class="nav-item cat-item" data-filter="z"><a class="nav-link" href="#">Z</a></li>
     </ul>
       <button type="button" class="btn btn-link">Add a Group</button> 
     </div>
- </nav>
+ </nav> %>
+ <div class="d-flex row text-center m-2 p-2 ">
+ 
+  <div class="col-lg-8 text-right"> 
+  <ul class="list-inline  text-muted mx-auto">
+      <li class="list-inline-item cat-item active-item" data-filter="all">All</li>
+      <li class="list-inline-item cat-item" data-filter="a">A</li>
+      <li class="list-inline-item cat-item" data-filter="b">B</li>
+      <li class="list-inline-item cat-item" data-filter="c">C</li>
+      <li class="list-inline-item cat-item" data-filter="d">D</li>
+      <li class="list-inline-item cat-item" data-filter="e">E</li>
+      <li class="list-inline-item cat-item" data-filter="f">F</li>
+      <li class="list-inline-item cat-item" data-filter="g">G</li>
+      <li class="list-inline-item cat-item" data-filter="h">H</li>
+      <li class="list-inline-item cat-item" data-filter="i">I</li>
+      <li class="list-inline-item cat-item" data-filter="j">J</li>
+      <li class="list-inline-item cat-item" data-filter="k">K</li>
+      <li class="list-inline-item cat-item" data-filter="l">L</li>
+      <li class="list-inline-item cat-item" data-filter="m">M</li>
+      <li class="list-inline-item cat-item" data-filter="n">N</li>
+      <li class="list-inline-item cat-item" data-filter="o">O</li>
+      <li class="list-inline-item cat-item" data-filter="p">P</li>
+      <li class="list-inline-item cat-item" data-filter="q">Q</li>
+      <li class="list-inline-item cat-item" data-filter="r">R</li>
+      <li class="list-inline-item cat-item" data-filter="s">S</li>
+      <li class="list-inline-item cat-item" data-filter="t">T</li>
+      <li class="list-inline-item cat-item" data-filter="u">U</li>
+      <li class="list-inline-item cat-item" data-filter="v">V</li>
+      <li class="list-inline-item cat-item" data-filter="w">W</li>
+      <li class="list-inline-item cat-item" data-filter="x">X</li>
+      <li class="list-inline-item cat-item" data-filter="y">Y</li>
+      <li class="list-inline-item cat-item" data-filter="z">Z</li>
+    </ul>
+    </div>
+    <div class="col-lg-4 text-center">
+      <button type="button" class="btn  btn-sm btn-link">Add a Group</button> 
+      </div>
+  </div>

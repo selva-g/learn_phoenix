@@ -1,14 +1,204 @@
-<%= render "static_nav_index.html" %>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-3">
-            
-        </div>
-        <div class="col-md-9">
-            <div class="container-fluid">            
-                <%= render "index_main.html" %>
-            </div>
-        </div>
+
+<div class="container">
+    <%= render "static_nav_index.html" %>
+
+    <div class="text-center">
+        
+     <!-- Search form -->
+    <form class="form-inline d-flex justify-content-center border-bottom border-0 md-form  form-sm active-cyan-2 mt-2">
+    <input class="form-control form-control-sm mr-3 w-50  br " type="text" placeholder="Search for a group"
+      aria-label="Search">
+    <i class="fas fa-search" aria-hidden="true"></i>
+  </form>
     </div>
+
+    <div class="row border-bottom  filter a p-3 m-3"> 
+        <div class="col-12"><h5>A</h5></div> 
+           
+        <div class="col-md-3 ">
+            
+            <a href="/group/aadikala" class="">AadiKala</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">AadiKala</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">AadiKala</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">AadiKala</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">AadiKala</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">AadiKala</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">AadiKala</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">AadiKala</a>
+        </div>
+        <!-- <div class="col-md-3">
+        <button class="btn btn-secondary btn-sm t-btn" type="button" data-toggle="collapse" data-target="#a" aria-expanded="false" aria-controls="collapseExample">
+            <div class="bg-light line1"></div>
+              <div class="bg-light line2"></div>
+              <div class="bg-light line3"></div>
+        </button>
+        </div> -->
+        
+            <div class="col-md-3 collapse" id="a">
+                <a href="/group/aadikala" class="">AadiKala</a>
+
+            </div>
+            <div class="col-md-3 collapse" id="a">
+                <a href="/group/aadikala" class="">AadiKala</a>
+
+            </div>
+            <div class="col-md-3 collapse" id="a">
+                <a href="/group/aadikala" class="">AadiKala</a>
+
+            </div>
+            <div class="col-md-3 collapse" id="a">
+                <a href="/group/aadikala" class="">AadiKala</a>
+
+            </div>
+            <!-- <div class="col-md-3">
+                <a href="/group/aadikala" class="">AadiKala</a>
+
+            </div>
+            <div class="col-md-3">
+                <a href="/group/aadikala" class="">AadiKala</a>
+
+            </div> -->
+        
+    </div>
+    <div class="row  border-bottom filter b p-3 m-3"> 
+        <div class="col-12"><h5>B</h5></div> 
+      
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Back to the future</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Banyan tree support group</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Budget Cordination Group</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Botanical service</a>
+        </div>
+        <!-- <div class="col-md-3"><span id="dots">...</span></div>
+        
+        <span id="more">
+            <div class="row">
+            <div class="col-md-3"><a href="/group/aadikala" class="">Bulgarian Pavilion</a></div>
+            <div class="col-md-3"><a href="/group/aadikala" class="">Bulgarian Pavilion</a></div>
+            <div class="col-md-3"><a href="/group/aadikala" class="">Bulgarian Pavilion</a></div>
+            <div class="col-md-3"><a href="/group/aadikala" class="">Bulgarian Pavilion</a></div>
+            <div class="col-md-3"><a href="/group/aadikala" class="">Bulgarian Pavilion</a></div>
+            <div class="col-md-3"><a href="/group/aadikala" class="">Bulgarian Pavilion</a></div>
+            </div>
+        </span>
+        <button onclick="myFunction()" id="myBtn">Read more</button> -->
+
+        
+    </div>
+    <div class="row filter border-bottom f p-3 m-3">   
+        <div class="col-12"><h5>F</h5></div> 
+    
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Back to the future</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Banyan tree support group</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Budget Cordination Group</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Botanical service</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Bulgarian Pavilion</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Botanical service</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Botanical service</a>
+        </div>
+        
+    </div>
+    <div class="row filter c border-bottom p-3 m-3"> 
+        <div class="col-12"><h5>C</h5></div> 
+      
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">CAlling the future</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Capoeria</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">CArbon conscious</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Colours of nature</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">City transport</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Concrete jungle park</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Courage community</a>
+        </div>
+        
+    </div>
+    <div class="row filter d border-bottom p-3 m-3"> 
+        <div class="col-12"><h5>D</h5></div> 
+      
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Deepanam</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Dharma divasa</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Diya gifts</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Divine flowers</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Darkali Fitness Track</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Disha info & Events</a>
+        </div>
+        <div class="col-md-3">
+            <a href="/group/aadikala" class="">Discipline community</a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+    </div>
+
+    
 </div>
+
+
+
+<%# <div class="container-fluid">            
+                <%= render "index_main.html" %>
+            <%# </div> %>

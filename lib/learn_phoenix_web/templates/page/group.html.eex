@@ -1,3 +1,21 @@
+<div id="mySidenav" class="sidenav" >
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Home</a>
+  <a href="#">About Us</a>
+  <a href="#">Reports</a>
+  <a href="#">Discussions</a>
+  <a href="#">General</a>
+  <a href="#">File</a>
+  <a href="#">Newsletters</a>
+  <a href="#">Question</a>
+  <a href="#">General</a>
+   <form class="form-inline">
+    <input class="form-control ml-4 " type="search" placeholder="Search this group" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</div>
+
+
 <div class="container">
 
  <%= render "group-banner.html" %>
@@ -16,6 +34,9 @@
         <%= render "group_cards.html" %>
     </div>
 </div>
- 
+ <!-- return-to-top -->
+    <a href="javascript:" id="offmenu" class="d-lg-none" ><span onclick="openNav()"><i class="fas fa-ellipsis-v"></i></span></a>  
+    <!--End of return-to-top -->
   </div>
+   
   

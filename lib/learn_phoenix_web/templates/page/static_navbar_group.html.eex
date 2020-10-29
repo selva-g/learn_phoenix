@@ -1,9 +1,11 @@
 <!--<nav class="navbar sticky-top navbar-light bg-light justify-content-between">------>
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white d-none d-sm-block">
   <section class="site-title">Auronet>Taalam</section>
   <!--<a class="navbar-brand" href="#">Auronet</a>-->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mySidenav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span><!-- Use any element to open the sidenav -->
+
+
    </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">      
