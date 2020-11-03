@@ -197,7 +197,39 @@
     
 </div>
 
+<!-- Footer -->
+<footer class="page-footer fixed-bottom bg-white font-small mdb-color lighten-3 pt-4">
 
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row text-center">
+        <!-- Grid column -->
+        <div class="col-4">
+  
+          <!-- Links -->
+          <a href="#!" title="Contact us">CONTACT US</a>
+  
+        </div>
+        <!-- Grid column -->
+        <div class="col-4">
+                <a href="#!">RULES OF THE GAME</a>
+        </div>
+        <div class="col-4">
+                <a href="#!">HELP</a>
+        </div>
+       </div>
+      <!-- Grid row -->
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="#"> Auronet</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
 
 <%# <div class="container-fluid">            
                 <%= render "index_main.html" %>

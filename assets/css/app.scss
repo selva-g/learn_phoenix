@@ -1,0 +1,253 @@
+/* The side navigation menu */
+.sidenav {
+	height: 100%; /* 100% Full-height */
+	width: 0; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Stay on top */
+	top: 0;
+	left: 0;
+	background-color:white; /* Black*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+	color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+	transition: margin-left .5s;
+	padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  }
+  
+ 
+/*Return to top*/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+/* End of Return to top*/
+
+/*Return offmenu*/
+#offmenu {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#offmenu i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 20px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#offmenu:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+.form-control{
+	width:auto;
+}
+
+.line1, .line2, .line3{
+  width: 23px;
+  height:3px;
+  margin: 5px;
+  transition: all .5s;
+}
+
+.change .line1{
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+.change .line2{
+  opacity: 0;
+}
+.change .line3{
+  transform: rotate(45deg) translate(-5px,-6px);
+  background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7));
+}
+
+#more {display: none;}
+
+.br{
+    background: transparent;
+    border-color:transparent ;
+    border-bottom: solid 2px #ccc;
+    border-radius: 0%;
+  
+}
+.br:focus{
+    background: transparent;
+    border-color:transparent ;
+    border-bottom: solid 2px #f5593d;
+    box-shadow: none;
+    color: #ffff;
+   
+  }
+
+
+  //searchbar
+
+  .cntr {
+    display: table;
+   // width: 100%;
+   // height: 100%;
+  }
+  .cntr .cntr-innr {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  /*** STYLES ***/
+  .search {
+    display: inline-block;
+    position: relative;
+    height: 35px;
+    width: 35px;
+    box-sizing: border-box;
+    margin: 0px 8px 7px 0px;
+    padding: 7px 9px 0px 9px;
+    border: 3px solid whitesmoke;
+    border-radius: 25px;
+    -webkit-transition: all 200ms ease;
+    transition: all .5s ease;
+    cursor: text;
+  }
+  .search:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 20px;
+    right: -5px;
+    top: 21px;
+    background: whitesmoke;
+    border-radius: 3px;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transition: all 200ms ease;
+    transition: all .5s ease;
+  }
+  .search.active,
+  .search:hover {
+    width: 600px;
+    margin-right: 0px;
+
+   
+  }
+  
+ 
+  .search.active:after,
+  .search:hover:after {
+    height: 0px;
+  }
+  .search input {
+    width: 100%;
+    border: none;
+    padding-top:-2px;
+    padding-bottom:2px;
+    margin-top: -2px;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    padding-bottom:2px;
+    font-size: 15px;
+    color: whitesmoke;
+    background: transparent;
+    outline-width: 0px;
+    
+  }
+  
+
+  @media screen and (max-width: 450px) {
+    .search.active,
+  .search:hover {
+    width: 150px;
+    margin-right: 0px;
+
+   
+  }
+}
+//end of searchbar 

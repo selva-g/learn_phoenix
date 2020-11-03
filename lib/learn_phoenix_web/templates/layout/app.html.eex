@@ -18,21 +18,34 @@
   <body>
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
           <a class="navbar-brand" href="#">Auronet</a>
+          <div class="d-block d-sm-none">
+            <label class="search pb-0 pt-1" for="inpt_search">
+                        <input id="inpt_search" type="text" />
+                     </label>
+          </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
+                <li class="nav-item active ">
                   <a class="nav-link" href="#" title="Auronet Home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#" title="About Auroville">About Auroville</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mr-4">
                   <a class="nav-link" href="http://localhost:4000/group" title="Groups in Auronet">Groups</a>
                 </li>
-                <li class="nav-item">
+                <li class="mx-auto d-none d-lg-block">
+                  <label class="search pb-0 pt-1" for="inpt_search">
+                        <input id="inpt_search" type="text" />
+                     </label>
+                
+            
+                </li>
+                <li class="nav-item ml-4">
                   <a class="nav-link" href="#" title="Blogs">Blogs</a>
                 </li>
                 <li class="nav-item">
@@ -42,11 +55,8 @@
                   <a class="nav-link" href="#" title="References">References</a>
                 </li>
               </ul>
-                <form class="form-inline my-2 my-lg-0">
-                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
+              </div>
+              
         </nav>
         
       <%= @inner_content %>
@@ -54,7 +64,7 @@
     <a href="javascript:" id="return-to-top" ><i class="fas fa-chevron-up"></i></a>  
     <!--End of return-to-top -->
  <!-- Footer -->
-<footer class="page-footer bg-light font-small mdb-color lighten-3 pt-4">
+<footer class="page-footer  bg-white font-small mdb-color lighten-3 pt-4">
 
   <!-- Footer Links -->
   <div class="container text-center text-md-left">
